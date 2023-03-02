@@ -16,6 +16,26 @@
 		CC05E55F29B0A00C00E85BEC /* Walmart_WaIETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E55E29B0A00C00E85BEC /* Walmart_WaIETests.swift */; };
 		CC05E56929B0A00C00E85BEC /* Walmart_WaIEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E56829B0A00C00E85BEC /* Walmart_WaIEUITests.swift */; };
 		CC05E56B29B0A00C00E85BEC /* Walmart_WaIEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E56A29B0A00C00E85BEC /* Walmart_WaIEUITestsLaunchTests.swift */; };
+		CC05E58029B0B01400E85BEC /* DailyPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E57F29B0B01300E85BEC /* DailyPictureViewController.swift */; };
+		CC05E58229B0B1F200E85BEC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E58129B0B1F200E85BEC /* NetworkManager.swift */; };
+		CC05E58429B0B2C000E85BEC /* DailyPictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E58329B0B2C000E85BEC /* DailyPictureViewModel.swift */; };
+		CC05E58629B0B5F900E85BEC /* DailyPicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E58529B0B5F900E85BEC /* DailyPicService.swift */; };
+		CC05E58829B0B67600E85BEC /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E58729B0B67600E85BEC /* Picture.swift */; };
+		CC05E58A29B0B6DF00E85BEC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E58929B0B6DF00E85BEC /* UIImageExtension.swift */; };
+		CC05E58C29B0D75800E85BEC /* DailyPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC05E58B29B0D75800E85BEC /* DailyPictureViewController.xib */; };
+		CC05E58E29B0D9AC00E85BEC /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E58D29B0D9AC00E85BEC /* RequestType.swift */; };
+		CC05E59029B0DA1700E85BEC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E58F29B0DA1700E85BEC /* NetworkError.swift */; };
+		CC05E59229B0DB0B00E85BEC /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E59129B0DB0B00E85BEC /* EndPoint.swift */; };
+		CC05E59429B0EC4F00E85BEC /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E59329B0EC4F00E85BEC /* Parser.swift */; };
+		CC05E59629B0F63200E85BEC /* DailyPicServiceEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E59529B0F63200E85BEC /* DailyPicServiceEndPoint.swift */; };
+		CC05E59829B1156200E85BEC /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E59729B1156200E85BEC /* UserDefaultsManager.swift */; };
+		CC05E59A29B11A3700E85BEC /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E59929B11A3700E85BEC /* LoadingIndicator.swift */; };
+		CC05E59D29B11F0800E85BEC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E59C29B11F0800E85BEC /* LoadingView.swift */; };
+		CC05E59F29B1391700E85BEC /* DailyPicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E59E29B1391700E85BEC /* DailyPicCoordinator.swift */; };
+		CC05E5A129B1424400E85BEC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A029B1424400E85BEC /* Reachability.swift */; };
+		CC05E5A329B143AC00E85BEC /* ReachabilityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A229B143AC00E85BEC /* ReachabilityProtocol.swift */; };
+		CC05E5A529B144E300E85BEC /* TLReachabilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A429B144E300E85BEC /* TLReachabilityHelper.swift */; };
+		CC05E5A729B1457800E85BEC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A629B1457800E85BEC /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +69,26 @@
 		CC05E56429B0A00C00E85BEC /* Walmart-WaIEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Walmart-WaIEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC05E56829B0A00C00E85BEC /* Walmart_WaIEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walmart_WaIEUITests.swift; sourceTree = "<group>"; };
 		CC05E56A29B0A00C00E85BEC /* Walmart_WaIEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walmart_WaIEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC05E57F29B0B01300E85BEC /* DailyPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPictureViewController.swift; sourceTree = "<group>"; };
+		CC05E58129B0B1F200E85BEC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CC05E58329B0B2C000E85BEC /* DailyPictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPictureViewModel.swift; sourceTree = "<group>"; };
+		CC05E58529B0B5F900E85BEC /* DailyPicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPicService.swift; sourceTree = "<group>"; };
+		CC05E58729B0B67600E85BEC /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		CC05E58929B0B6DF00E85BEC /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		CC05E58B29B0D75800E85BEC /* DailyPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyPictureViewController.xib; sourceTree = "<group>"; };
+		CC05E58D29B0D9AC00E85BEC /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		CC05E58F29B0DA1700E85BEC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CC05E59129B0DB0B00E85BEC /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		CC05E59329B0EC4F00E85BEC /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		CC05E59529B0F63200E85BEC /* DailyPicServiceEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPicServiceEndPoint.swift; sourceTree = "<group>"; };
+		CC05E59729B1156200E85BEC /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		CC05E59929B11A3700E85BEC /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		CC05E59C29B11F0800E85BEC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CC05E59E29B1391700E85BEC /* DailyPicCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPicCoordinator.swift; sourceTree = "<group>"; };
+		CC05E5A029B1424400E85BEC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		CC05E5A229B143AC00E85BEC /* ReachabilityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityProtocol.swift; sourceTree = "<group>"; };
+		CC05E5A429B144E300E85BEC /* TLReachabilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLReachabilityHelper.swift; sourceTree = "<group>"; };
+		CC05E5A629B1457800E85BEC /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +139,10 @@
 		CC05E54629B0A00B00E85BEC /* Walmart-WaIE */ = {
 			isa = PBXGroup;
 			children = (
+				CC05E59B29B11A7300E85BEC /* Resources */,
+				CC05E57E29B0AEAF00E85BEC /* Network */,
+				CC05E57C29B0AD2000E85BEC /* Utils */,
+				CC05E57D29B0AD4600E85BEC /* DailyPicture */,
 				CC05E54729B0A00B00E85BEC /* AppDelegate.swift */,
 				CC05E54929B0A00B00E85BEC /* SceneDelegate.swift */,
 				CC05E54B29B0A00B00E85BEC /* ViewController.swift */,
@@ -106,6 +150,7 @@
 				CC05E55029B0A00C00E85BEC /* Assets.xcassets */,
 				CC05E55229B0A00C00E85BEC /* LaunchScreen.storyboard */,
 				CC05E55529B0A00C00E85BEC /* Info.plist */,
+				CC05E59729B1156200E85BEC /* UserDefaultsManager.swift */,
 			);
 			path = "Walmart-WaIE";
 			sourceTree = "<group>";
@@ -125,6 +170,93 @@
 				CC05E56A29B0A00C00E85BEC /* Walmart_WaIEUITestsLaunchTests.swift */,
 			);
 			path = "Walmart-WaIEUITests";
+			sourceTree = "<group>";
+		};
+		CC05E57729B0AB8600E85BEC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E57F29B0B01300E85BEC /* DailyPictureViewController.swift */,
+				CC05E58B29B0D75800E85BEC /* DailyPictureViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CC05E57829B0ABA700E85BEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E58729B0B67600E85BEC /* Picture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC05E57929B0ABAE00E85BEC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E58329B0B2C000E85BEC /* DailyPictureViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CC05E57A29B0ABB500E85BEC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E59E29B1391700E85BEC /* DailyPicCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CC05E57B29B0AD0800E85BEC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E58529B0B5F900E85BEC /* DailyPicService.swift */,
+				CC05E59529B0F63200E85BEC /* DailyPicServiceEndPoint.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CC05E57C29B0AD2000E85BEC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E5A629B1457800E85BEC /* Constant.swift */,
+				CC05E5A429B144E300E85BEC /* TLReachabilityHelper.swift */,
+				CC05E5A029B1424400E85BEC /* Reachability.swift */,
+				CC05E5A229B143AC00E85BEC /* ReachabilityProtocol.swift */,
+				CC05E58929B0B6DF00E85BEC /* UIImageExtension.swift */,
+				CC05E59929B11A3700E85BEC /* LoadingIndicator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CC05E57D29B0AD4600E85BEC /* DailyPicture */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E57B29B0AD0800E85BEC /* Service */,
+				CC05E57A29B0ABB500E85BEC /* Coordinator */,
+				CC05E57929B0ABAE00E85BEC /* ViewModel */,
+				CC05E57829B0ABA700E85BEC /* Model */,
+				CC05E57729B0AB8600E85BEC /* ViewController */,
+			);
+			path = DailyPicture;
+			sourceTree = "<group>";
+		};
+		CC05E57E29B0AEAF00E85BEC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E58129B0B1F200E85BEC /* NetworkManager.swift */,
+				CC05E58D29B0D9AC00E85BEC /* RequestType.swift */,
+				CC05E58F29B0DA1700E85BEC /* NetworkError.swift */,
+				CC05E59129B0DB0B00E85BEC /* EndPoint.swift */,
+				CC05E59329B0EC4F00E85BEC /* Parser.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CC05E59B29B11A7300E85BEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E59C29B11F0800E85BEC /* LoadingView.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC05E55429B0A00C00E85BEC /* LaunchScreen.storyboard in Resources */,
+				CC05E58C29B0D75800E85BEC /* DailyPictureViewController.xib in Resources */,
 				CC05E55129B0A00C00E85BEC /* Assets.xcassets in Resources */,
 				CC05E54F29B0A00B00E85BEC /* Main.storyboard in Resources */,
 			);
@@ -259,8 +392,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC05E54C29B0A00B00E85BEC /* ViewController.swift in Sources */,
+				CC05E58429B0B2C000E85BEC /* DailyPictureViewModel.swift in Sources */,
+				CC05E5A129B1424400E85BEC /* Reachability.swift in Sources */,
 				CC05E54829B0A00B00E85BEC /* AppDelegate.swift in Sources */,
+				CC05E59F29B1391700E85BEC /* DailyPicCoordinator.swift in Sources */,
+				CC05E58229B0B1F200E85BEC /* NetworkManager.swift in Sources */,
+				CC05E59D29B11F0800E85BEC /* LoadingView.swift in Sources */,
+				CC05E59429B0EC4F00E85BEC /* Parser.swift in Sources */,
+				CC05E5A329B143AC00E85BEC /* ReachabilityProtocol.swift in Sources */,
+				CC05E58829B0B67600E85BEC /* Picture.swift in Sources */,
+				CC05E58A29B0B6DF00E85BEC /* UIImageExtension.swift in Sources */,
+				CC05E59629B0F63200E85BEC /* DailyPicServiceEndPoint.swift in Sources */,
+				CC05E59229B0DB0B00E85BEC /* EndPoint.swift in Sources */,
+				CC05E58029B0B01400E85BEC /* DailyPictureViewController.swift in Sources */,
+				CC05E58629B0B5F900E85BEC /* DailyPicService.swift in Sources */,
+				CC05E59829B1156200E85BEC /* UserDefaultsManager.swift in Sources */,
+				CC05E59A29B11A3700E85BEC /* LoadingIndicator.swift in Sources */,
+				CC05E5A529B144E300E85BEC /* TLReachabilityHelper.swift in Sources */,
 				CC05E54A29B0A00B00E85BEC /* SceneDelegate.swift in Sources */,
+				CC05E5A729B1457800E85BEC /* Constant.swift in Sources */,
+				CC05E59029B0DA1700E85BEC /* NetworkError.swift in Sources */,
+				CC05E58E29B0D9AC00E85BEC /* RequestType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
