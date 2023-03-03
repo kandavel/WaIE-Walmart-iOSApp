@@ -6,10 +6,20 @@
 //
 
 import Foundation
+
+protocol DailyPicCoordinatorProtocol : AnyObject {
+    
+}
+
 final class DailyPicCoordinator {
     
     static func openDailyPicOfTheDayScreen() -> DailyPictureViewController {
-        let view = DailyPictureViewController()
+        let vm  = DailyPictureVM()
+        let view = DailyPictureViewController(viewModel: vm)
         return view
     }
+}
+
+extension DailyPicCoordinator : DailyPicCoordinatorProtocol {
+    
 }

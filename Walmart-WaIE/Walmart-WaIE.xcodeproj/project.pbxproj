@@ -36,6 +36,9 @@
 		CC05E5A329B143AC00E85BEC /* ReachabilityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A229B143AC00E85BEC /* ReachabilityProtocol.swift */; };
 		CC05E5A529B144E300E85BEC /* TLReachabilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A429B144E300E85BEC /* TLReachabilityHelper.swift */; };
 		CC05E5A729B1457800E85BEC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A629B1457800E85BEC /* Constant.swift */; };
+		CC05E5AA29B1DD3400E85BEC /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A829B1DD3400E85BEC /* ImageCache.swift */; };
+		CC05E5AB29B1DD3400E85BEC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A929B1DD3400E85BEC /* ImageLoader.swift */; };
+		CC05E5AD29B1EC5700E85BEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,9 @@
 		CC05E5A229B143AC00E85BEC /* ReachabilityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityProtocol.swift; sourceTree = "<group>"; };
 		CC05E5A429B144E300E85BEC /* TLReachabilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLReachabilityHelper.swift; sourceTree = "<group>"; };
 		CC05E5A629B1457800E85BEC /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CC05E5A829B1DD3400E85BEC /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		CC05E5A929B1DD3400E85BEC /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,7 @@
 				CC05E55229B0A00C00E85BEC /* LaunchScreen.storyboard */,
 				CC05E55529B0A00C00E85BEC /* Info.plist */,
 				CC05E59729B1156200E85BEC /* UserDefaultsManager.swift */,
+				CC05E5AE29B1EC5D00E85BEC /* Base */,
 			);
 			path = "Walmart-WaIE";
 			sourceTree = "<group>";
@@ -220,6 +227,8 @@
 				CC05E5A629B1457800E85BEC /* Constant.swift */,
 				CC05E5A429B144E300E85BEC /* TLReachabilityHelper.swift */,
 				CC05E5A029B1424400E85BEC /* Reachability.swift */,
+				CC05E5A829B1DD3400E85BEC /* ImageCache.swift */,
+				CC05E5A929B1DD3400E85BEC /* ImageLoader.swift */,
 				CC05E5A229B143AC00E85BEC /* ReachabilityProtocol.swift */,
 				CC05E58929B0B6DF00E85BEC /* UIImageExtension.swift */,
 				CC05E59929B11A3700E85BEC /* LoadingIndicator.swift */,
@@ -257,6 +266,14 @@
 				CC05E59C29B11F0800E85BEC /* LoadingView.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC05E5AE29B1EC5D00E85BEC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,9 +422,12 @@
 				CC05E59629B0F63200E85BEC /* DailyPicServiceEndPoint.swift in Sources */,
 				CC05E59229B0DB0B00E85BEC /* EndPoint.swift in Sources */,
 				CC05E58029B0B01400E85BEC /* DailyPictureViewController.swift in Sources */,
+				CC05E5AB29B1DD3400E85BEC /* ImageLoader.swift in Sources */,
 				CC05E58629B0B5F900E85BEC /* DailyPicService.swift in Sources */,
+				CC05E5AA29B1DD3400E85BEC /* ImageCache.swift in Sources */,
 				CC05E59829B1156200E85BEC /* UserDefaultsManager.swift in Sources */,
 				CC05E59A29B11A3700E85BEC /* LoadingIndicator.swift in Sources */,
+				CC05E5AD29B1EC5700E85BEC /* BaseViewController.swift in Sources */,
 				CC05E5A529B144E300E85BEC /* TLReachabilityHelper.swift in Sources */,
 				CC05E54A29B0A00B00E85BEC /* SceneDelegate.swift in Sources */,
 				CC05E5A729B1457800E85BEC /* Constant.swift in Sources */,
@@ -597,6 +617,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -625,6 +646,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

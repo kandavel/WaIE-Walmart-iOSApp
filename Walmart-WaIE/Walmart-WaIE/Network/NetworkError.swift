@@ -13,4 +13,5 @@ enum NetworkError: Error {
     case mockDataMissing
     case responseError(error: Error)
     case parserError(error: Error)
+    case reachabilityError(error : Error)
 }

@@ -7,8 +7,18 @@
 
 import Foundation
 struct Picture: Codable {
-    let explanation: String?
-    let url: String?
-    let title: String?
-    let media_type: String?
+    var title : String
+    var description : String
+    var url : URL
+    var mediaType : String
+    var copyright : String?
+    
+    enum CodingKeys : String, CodingKey
+    {
+        case title
+        case description = "explanation"
+        case url
+        case mediaType = "media_type"
+        case copyright
+    }
 }
