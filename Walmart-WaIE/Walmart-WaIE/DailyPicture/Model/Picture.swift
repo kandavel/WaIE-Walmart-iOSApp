@@ -7,18 +7,15 @@
 
 import Foundation
 struct Picture: Codable {
-    var title : String
-    var description : String
-    var url : URL
-    var mediaType : String
-    var copyright : String?
-    
-    enum CodingKeys : String, CodingKey
-    {
-        case title
-        case description = "explanation"
-        case url
-        case mediaType = "media_type"
-        case copyright
-    }
+    var date, explanation: String?
+        var hdurl: String?
+        var mediaType, serviceVersion, title: String?
+        var url: String?
+
+        enum CodingKeys: String, CodingKey {
+            case date, explanation, hdurl
+            case mediaType = "media_type"
+            case serviceVersion = "service_version"
+            case title, url
+        }
 }

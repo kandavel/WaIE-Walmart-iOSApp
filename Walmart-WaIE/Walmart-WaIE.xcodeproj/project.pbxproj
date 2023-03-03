@@ -39,6 +39,8 @@
 		CC05E5AA29B1DD3400E85BEC /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A829B1DD3400E85BEC /* ImageCache.swift */; };
 		CC05E5AB29B1DD3400E85BEC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5A929B1DD3400E85BEC /* ImageLoader.swift */; };
 		CC05E5AD29B1EC5700E85BEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */; };
+		CC05E5B129B2856F00E85BEC /* DetailPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC05E5B029B2856F00E85BEC /* DetailPictureViewController.xib */; };
+		CC05E5B329B2879700E85BEC /* DetailPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5B229B2879700E85BEC /* DetailPictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		CC05E5A829B1DD3400E85BEC /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		CC05E5A929B1DD3400E85BEC /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CC05E5B029B2856F00E85BEC /* DetailPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPictureViewController.xib; sourceTree = "<group>"; };
+		CC05E5B229B2879700E85BEC /* DetailPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				CC05E57F29B0B01300E85BEC /* DailyPictureViewController.swift */,
-				CC05E58B29B0D75800E85BEC /* DailyPictureViewController.xib */,
+				CC05E5B229B2879700E85BEC /* DetailPictureViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -239,11 +243,12 @@
 		CC05E57D29B0AD4600E85BEC /* DailyPicture */ = {
 			isa = PBXGroup;
 			children = (
-				CC05E57B29B0AD0800E85BEC /* Service */,
 				CC05E57A29B0ABB500E85BEC /* Coordinator */,
-				CC05E57929B0ABAE00E85BEC /* ViewModel */,
 				CC05E57829B0ABA700E85BEC /* Model */,
+				CC05E57B29B0AD0800E85BEC /* Service */,
 				CC05E57729B0AB8600E85BEC /* ViewController */,
+				CC05E57929B0ABAE00E85BEC /* ViewModel */,
+				CC05E5AF29B1EFFE00E85BEC /* Xib */,
 			);
 			path = DailyPicture;
 			sourceTree = "<group>";
@@ -274,6 +279,15 @@
 				CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		CC05E5AF29B1EFFE00E85BEC /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E58B29B0D75800E85BEC /* DailyPictureViewController.xib */,
+				CC05E5B029B2856F00E85BEC /* DetailPictureViewController.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +396,7 @@
 			files = (
 				CC05E55429B0A00C00E85BEC /* LaunchScreen.storyboard in Resources */,
 				CC05E58C29B0D75800E85BEC /* DailyPictureViewController.xib in Resources */,
+				CC05E5B129B2856F00E85BEC /* DetailPictureViewController.xib in Resources */,
 				CC05E55129B0A00C00E85BEC /* Assets.xcassets in Resources */,
 				CC05E54F29B0A00B00E85BEC /* Main.storyboard in Resources */,
 			);
@@ -408,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC05E5B329B2879700E85BEC /* DetailPictureViewController.swift in Sources */,
 				CC05E54C29B0A00B00E85BEC /* ViewController.swift in Sources */,
 				CC05E58429B0B2C000E85BEC /* DailyPictureViewModel.swift in Sources */,
 				CC05E5A129B1424400E85BEC /* Reachability.swift in Sources */,

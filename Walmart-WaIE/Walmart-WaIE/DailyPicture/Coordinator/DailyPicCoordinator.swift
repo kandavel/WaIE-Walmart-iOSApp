@@ -14,7 +14,7 @@ protocol DailyPicCoordinatorProtocol : AnyObject {
 final class DailyPicCoordinator {
     
     static func openDailyPicOfTheDayScreen() -> DailyPictureViewController {
-        let vm  = DailyPictureVM()
+        let vm  = DailyPictureVM(webservice: DailyPicService())
         let view = DailyPictureViewController(viewModel: vm)
         return view
     }
