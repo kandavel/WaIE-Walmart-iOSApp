@@ -50,6 +50,7 @@ final class DailyPictureVM {
     }
     
     fileprivate func updateUI() {
+        updateLastSeenAPODData()
         loadImage(url: self.picture?.url)
         updateTitleAndExplanation()
         self.view?.hideLoader()
@@ -60,6 +61,7 @@ final class DailyPictureVM {
     }
     
     func updateLastSeenAPODData() {
+        userDafaults.setUserVisitedCount()
         userDafaults.setapodTitle(title: self.picture?.title)
         userDafaults.setapodExplanantion(explanantion: self.picture?.explanation)
     }
@@ -93,6 +95,7 @@ final class DailyPictureVM {
         else {
            //this scenario is not handled
         }
+        self.view?.showToastMessage(message: "We are not connected to the internet, showing you the last image we have.")
     }
     
     func handleErrorCases(error : NetworkError) {
