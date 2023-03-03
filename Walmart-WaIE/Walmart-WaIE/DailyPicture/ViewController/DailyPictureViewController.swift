@@ -40,6 +40,7 @@ final class DailyPictureViewController : BaseViewController {
         super.viewDidLoad()
         self.viewModel.setDelegate(delelgate: self)
         self.viewModel.viewDidLoad()
+        addGestureRecognizer()
     }
     
     fileprivate func addGestureRecognizer() {
@@ -50,7 +51,8 @@ final class DailyPictureViewController : BaseViewController {
     }
     
     @objc func moveToDetaiScreen() {
-        
+        let vc  = DetailPictureViewController(image: self.dailyPicImageView.image ?? UIImage())
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     private func showImage(image: UIImage?) {
