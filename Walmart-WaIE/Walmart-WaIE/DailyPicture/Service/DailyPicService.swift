@@ -13,6 +13,7 @@ protocol MoviesServiceProtocol : AnyObject {
 }
 
 class DailyPicService: MoviesServiceProtocol {
+    
     func fetchDailyPictures(_ endPoint : Endpoint,completionHandler: @escaping (PictureResult) -> ()) {
         if let reachabilityError = checkReachability().error {
             completionHandler(.failure(.reachabilityError(error: reachabilityError)))

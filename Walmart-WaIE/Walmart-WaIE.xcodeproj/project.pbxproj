@@ -41,6 +41,7 @@
 		CC05E5AD29B1EC5700E85BEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */; };
 		CC05E5B129B2856F00E85BEC /* DetailPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC05E5B029B2856F00E85BEC /* DetailPictureViewController.xib */; };
 		CC05E5B329B2879700E85BEC /* DetailPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E5B229B2879700E85BEC /* DetailPictureViewController.swift */; };
+		CC42288729B2F808000BDC26 /* Walmart_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42288629B2F808000BDC26 /* Walmart_ServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		CC05E5AC29B1EC5700E85BEC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CC05E5B029B2856F00E85BEC /* DetailPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPictureViewController.xib; sourceTree = "<group>"; };
 		CC05E5B229B2879700E85BEC /* DetailPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPictureViewController.swift; sourceTree = "<group>"; };
+		CC42288629B2F808000BDC26 /* Walmart_ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walmart_ServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				CC05E55E29B0A00C00E85BEC /* Walmart_WaIETests.swift */,
+				CC42288629B2F808000BDC26 /* Walmart_ServiceTests.swift */,
 			);
 			path = "Walmart-WaIETests";
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC42288729B2F808000BDC26 /* Walmart_ServiceTests.swift in Sources */,
 				CC05E55F29B0A00C00E85BEC /* Walmart_WaIETests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
