@@ -6,11 +6,15 @@ NOTES:-
  Trying to implement the MVVM - C pattern
  Added a simple nscache layer
  for showing toast - uses the later action
+ language - swift4.2
 
 
 
 INSTRUCTIONS:-
   - To see image on the fullscreen, tap on the image in APOD page it will navigate to second screen
+  - Run the code from the kandavel-WaIE branch
+  - Use Xcode13.0 for running the  project
+  - keep the deployment target as iOS 13.0
   
 
 
@@ -19,7 +23,7 @@ INSTRUCTIONS:-
 
 
 IMPROVEMENT AREAS:-
- [1] Unit test cases needd to be added
+ [1] Unit test cases needs to be added
  [2] Improvement  of nscahce - to persist in disk
  [3] Navigating to Detail screen - have to implement in Coordinator flow
  [4] Network layer code needs to be fine tuned
